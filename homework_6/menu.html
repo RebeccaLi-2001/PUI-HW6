@@ -42,17 +42,33 @@
 			<a href="original.html">
 			<img src="images/Original.jpg" alt="Original flavor cinnamon rolls picture" class="product_listing_pic">
 			</a>
-			<ul>
-				<li>Original</li>
-				<li>★★★★★(1,081)</li>
-				<li>$3.00</li>
-				<li>Choose the Size</li>
-				<li class = "option">1 roll</li>
-				<li>Choose the Glazing</li>
-				<li class = "option">None</li>
-				<li> </li>
-				<li class = "option"><strong>ADD TO CART</strong></li>
-			</ul>
+				<p>Original</p>
+				<p>$3.00</p>
+				<p>★★★★★(1,081)</p>
+				
+				<form>  
+					<b> Choose the Size </b>  
+					<select id = "myList1" onchange = "Size()" >  
+					<option> 1 roll</option>  
+					<option> 3 rolls </option>  
+					<option> 6 rolls </option>  
+					<option> 12 rolls </option>  
+					</select>  
+					
+				</form>
+
+				<form>  
+					<b> Choose the Glazing </b>  
+					<select id = "myList2" onchange = "Glazing()" >  
+					<option> None</option>  
+					<option> Sugar-milk </option>  
+					<option> Vanilla-milk </option>  
+					<option> Double-chocolate </option>  
+					</select>  
+					
+				</form>
+				<button class = "add-cart" onclick = "updateNumbers()"><strong>ADD TO CART</strong></button>
+				
 		</div>
 		
 		<div class="product_block">
@@ -60,18 +76,32 @@
 			<img src="images/Blackberry-Cinnamon-Rolls.jpg" alt="Blackberry Cinnamon Rolls picture" class="product_listing_pic">
 			</a>
 
-			<ul>
-				<li>Blackberry</li>
-				<li>★★★★★(1,791)</li>
-				<li>$4.00</li>
-				<li>Choose the Size</li>
-				<li class = "option">1 roll</li>
-				<li>Choose the Glazing</li>
-				<li class = "option">None</li>
-				<li> </li>
-				<li class = "option"><strong>ADD TO CART</strong></li>
+				<p>Blackberry</p>
+				<p>$4.00</p>
+				<p>★★★★★(1,791)</p>
 				
-			</ul>
+				<form>  
+					<b> Choose the Size </b>  
+					<select onchange = "Size()" >  
+					<option> 1 roll</option>  
+					<option> 3 rolls </option>  
+					<option> 6 rolls </option>  
+					<option> 12 rolls </option>  
+					</select>  
+					
+				</form>
+
+				<form>  
+					<b> Choose the Glazing </b>  
+					<select onchange = "Glazing()" >  
+					<option> None</option>  
+					<option> Sugar-milk </option>  
+					<option> Vanilla-milk </option>  
+					<option> Double-chocolate </option>  
+					</select>  
+					
+				</form>
+				<button class = "add-cart" onclick = "updateNumbers()"><strong>ADD TO CART</strong></button>
 		</div>
 
 		
@@ -79,65 +109,132 @@
 		<div class="product_block">
 
 			<img src="images/Walnut-Cinnamon-Rolls.jpg" alt="Walnut Cinnamon Rolls picture" class="product_listing_pic">
-			<ul>
-				<li>Walnut</li>
-				<li>★★★★☆(1,274)</li>
-				<li>$3.50</li>
-				<li>Choose the Size</li>
-				<li class = "option">1 roll</li>
-				<li>Choose the Glazing</li>
-				<li class = "option">None</li>
-				<li> </li>
-				<li class = "option"><strong>ADD TO CART</strong></li>	
-			</ul>
+			
+				<p>Walnut</p>
+				<p>$3.50</p>
+				<p>★★★★☆(1,274)</p>
+				
+				<form>  
+					<b> Choose the Size </b>  
+					<select onchange = "Size()" >  
+					<option> 1 roll</option>  
+					<option> 3 rolls </option>  
+					<option> 6 rolls </option>  
+					<option> 12 rolls </option>  
+					</select>  
+					
+				</form>
+
+				<form>  
+					<b> Choose the Glazing </b>  
+					<select onchange = "Glazing()" >  
+					<option> None</option>  
+					<option> Sugar-milk </option>  
+					<option> Vanilla-milk </option>  
+					<option> Double-chocolate </option>  
+					</select>  
+					
+				</form>
+				<button class = "add-cart" onclick = "updateNumbers()"><strong>ADD TO CART</strong></button>
+			
 		</div>
 
 		<div class="product_block">
 
 			<img src="images/Original-gluten-free.jpg" alt="Original gluten free cinnamon rolls picture" class="product_listing_pic">
-			<ul>
-				<li>Original (Gluten-free)</li>
-				<li>★★★☆☆(650)</li>
-				<li>$3.50</li>
-				<li>Choose the Size</li>
-				<li class = "option">1 roll</li>
-				<li>Choose the Glazing</li>
-				<li class = "option">None</li>
-				<li> </li>
-				<li class = "option"><strong>ADD TO CART</strong></li>	
-			</ul>
+
+				<p>Original (Gluten-free)</p>
+				<p>$3.50</p>
+				<p>★★★☆☆(650)</p>
+				
+				<form>  
+					<b> Choose the Size </b>  
+					<select onchange = "Size()" >  
+					<option> 1 roll</option>  
+					<option> 3 rolls </option>  
+					<option> 6 rolls </option>  
+					<option> 12 rolls </option>  
+					</select>  
+					
+				</form>
+
+				<form>  
+					<b> Choose the Glazing </b>  
+					<select onchange = "Glazing()" >  
+					<option> None</option>  
+					<option> Sugar-milk </option>  
+					<option> Vanilla-milk </option>  
+					<option> Double-chocolate </option>  
+					</select>  
+					
+				</form>
+				<button class = "add-cart" onclick = "updateNumbers()"><strong>ADD TO CART</strong></button>
 		</div>
 
 		<div class="product_block">
 
 			<img src="images/pumpkin-cinnamon-rolls.jpg" alt="pumpkin cinnamon rolls picture" class="product_listing_pic">
-			<ul>
-				<li>Pumpkin Spice</li>
-				<li>★★★☆☆(570)</li>
-				<li>$4.00</li>
-				<li>Choose the Size</li>
-				<li class = "option">1 roll</li>
-				<li>Choose the Glazing</li>
-				<li class = "option">None</li>
-				<li> </li>
-				<li class = "option"><strong>ADD TO CART</strong></li>
-			</ul>
+
+				<p>Pumpkin Spice</p>
+				<p>$4.00</p>
+				<p>★★★☆☆(570)</p>
+				
+				<form>  
+					<b> Choose the Size </b>  
+					<select onchange = "Size()" >  
+					<option> 1 roll</option>  
+					<option> 3 rolls </option>  
+					<option> 6 rolls </option>  
+					<option> 12 rolls </option>  
+					</select>  
+					
+				</form>
+
+				<form>  
+					<b> Choose the Glazing </b>  
+					<select onchange = "Glazing()" >  
+					<option> None</option>  
+					<option> Sugar-milk </option>  
+					<option> Vanilla-milk </option>  
+					<option> Double-chocolate </option>  
+					</select>  
+					
+				</form>
+				<button class = "add-cart" onclick = "updateNumbers()"><strong>ADD TO CART</strong></button>
+			
 		</div>
 
 		<div class="product_block">
 
 			<img src="images/Caramel-Pecan-Cinnanmon-Rolls.jpg" alt="Caramel Pecan Cinnanmon Rolls picture" class="product_listing_pic">
-			<ul>
-				<li>Caramel Pecan</li>
-				<li>★★★★★(978)</li>
-				<li>$4.00</li>
-				<li>Choose the Size</li>
-				<li class = "option">1 roll</li>
-				<li>Choose the Glazing</li>
-				<li class = "option">None</li>
-				<li> </li>
-				<li class = "option"><strong>ADD TO CART</strong></li>
-			</ul>
+			
+			<p>Caramel Pecan</p>
+			<p>$4.00</p>
+			<p>★★★★★(978)</p>
+			
+			<form>  
+				<b> Choose the Size </b>  
+				<select onchange = "Size()" >  
+				<option> 1 roll</option>  
+				<option> 3 rolls </option>  
+				<option> 6 rolls </option>  
+				<option> 12 rolls </option>  
+				</select>  
+				
+			</form>
+
+			<form>  
+				<b> Choose the Glazing </b>  
+				<select onchange = "Glazing()" >  
+				<option> None</option>  
+				<option> Sugar-milk </option>  
+				<option> Vanilla-milk </option>  
+				<option> Double-chocolate </option>  
+				</select>  
+				
+			</form>
+			<button class = "add-cart" onclick = "updateNumbers()"><strong>ADD TO CART</strong></button>
+		
 		</div>	
 	</div>
 
