@@ -1,0 +1,280 @@
+/* CSS Document */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 100%; 
+	line-height: 1.7em; 
+	color: #000000;
+}
+
+a {	
+	color: #0F4970;
+	text-decoration: none;
+}
+
+a:hover {	
+	color: #0F4970;
+	text-decoration: underline;
+}
+
+
+
+footer {
+	clear: both; 
+	margin: 0;
+	padding: .5em;
+	color: #333333;
+	
+	font-size: .813em;
+	text-align: center;
+	border-top: 1px dotted #cccccc;
+}
+
+
+
+.container{
+	width:100% !important;
+	padding: 20px;
+
+}
+
+.brand-logo {
+	font-size:40px !important;
+	margin-left:10px;
+}
+
+/* properties for product listing pictures and product descriptions */
+
+.product_listing_pic{
+	width:300px;
+	height:300px;
+	text-align: center;
+}
+
+.option{
+	background-color: #F2994A;
+	width:350px;
+	height:25px;
+	border-color: black;
+	border-width: 100px;
+
+	
+	
+}
+
+.product_block{
+	float: left;
+	width: 30%;
+	padding: 5px;
+	text-align: center;
+}
+
+
+.choose_section{
+	
+	text-align: center;
+	
+}
+
+.background{
+	width: 100%;
+	height: 700px;
+
+}
+
+.product_detailed_pic{
+
+	width:400px;
+	height:400px;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 200px;
+}
+
+.product_detailed_explanations{
+	float: right;
+	width: 33.33%;
+	padding: 5px;
+	padding-right: 200px;
+	display:inline;
+}
+
+.star_block{
+	float: left;
+	display:inline;
+	position:static;
+}
+
+.star_block_rec{
+	
+	display:inline;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 10px;
+}
+
+.nav_bar{
+	text-align: center;
+	background-color: #F2994A;
+	padding-bottom: 10px;
+	
+}
+
+.bag{
+	float: right;
+	margin: 15px;
+
+}
+
+.search{
+	text-align: left;
+	float: right;
+	background-color: white;
+	width:150px;
+	height:25px;
+	margin: 5px;
+
+}
+
+.cart_thumb_nail{
+	height:30px;
+	width:30px;
+	float: right;
+	margin: 10px;
+	
+}
+.thumb_nail{
+	height:15px;
+	width:15px;
+	float: right;
+	
+}
+
+.star{
+	height:25px;
+	width:25px;
+	margin: 15px;
+	position:relative;
+}
+
+.footer-copyright{
+	background-color: #F2994A;
+	
+}
+
+/* properties for the reviews */
+
+.review{
+	float: left;
+
+}
+
+.five_stars{
+	background-color: #F2994A;
+	width:350px;
+	height:25px;
+	border-color: black;
+	border-width: 100px;
+	
+	
+}
+
+.four_stars{
+	background-color: #F2994A;
+	width:50px;
+	height:25px;
+	border-color: black;
+	border-width: 100px;
+	
+
+	
+	
+}
+
+.three_stars{
+	background-color: #F2994A;
+	width:10px;
+	height:25px;
+	border-color: black;
+	border-width: 100px;
+
+	
+	
+}
+
+/* properties for the comment section */
+
+.customer{
+	
+	width:300px;
+	height:100px;
+
+}
+
+.person_photo{
+	width:80px;
+	height:120px;
+	text-align: center;
+	float:left;
+	padding-right: 30px;
+
+}
+
+.comment_section{
+	float:right;
+	padding-right: 30%;
+	border:#0F4970;
+	border-width:thin;
+
+}
+
+.prev_button{
+	position: relative;
+	right: 100px;
+	bottom: 10px;
+}
+
+.next_button{
+	position: relative;
+	left: 300px;
+	bottom: 10px;
+}
+
+
+/* properties for the cart section */
+
+.cart{
+	padding: 20px;
+	padding-bottom: 50px;
+}
+
+.cart_pic{
+	width:250px;
+	height:250px;
+	text-align: center;
+	float:left;
+}
+
+.cart_detailed_explanations{
+	text-align: center;
+	float:left;
+	padding: 20px;
+}
+
+.price{
+	position: relative;
+	
+}
+
+.delete{
+	text-decoration: underline;
+}
+
+
+.My_Bag{
+	
+	text-align: right;
+	
+}
+
+
