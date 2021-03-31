@@ -3,20 +3,45 @@ let carts = document.querySelectorAll('.add-cart');
 let products = [
     {
         name: "Original",
-        price: "$4.00",
-        image: "images/shopping-bag.png",
-        alt: "shopping bag icon",
+        price: "$3.00",
+        image: "images/Original.jpg",
+        alt: "Original flavor cinnamon rolls picture",
     
     },
     {
         name: "Blackberry",
-        glazing: "None",
-        inCart:0
+        price: "$4.00",
+        image: "images/Blackberry-Cinnamon-Rolls.jpg",
+        alt: "Blackberry Cinnamon Rolls picture",
+    
     },
     {
         name: "Walnut",
-        glazing: "None",
-        inCart:0
+        price: "$3.50",
+        image: "images/Walnut-Cinnamon-Rolls.jpg",
+        alt: "Walnut Cinnamon Rolls picture",
+    
+    },
+    {
+        name: "Original (Gluten-free)",
+        price: "$3.50",
+        image: "images/Original-gluten-free.jpg",
+        alt: "Original gluten free cinnamon rolls picture",
+    
+    },
+    {
+        name: "Pumpkin Spice",
+        price: "$4.00",
+        image: "images/pumpkin-cinnamon-rolls.jpg",
+        alt: "pumpkin cinnamon rolls picture",
+    
+    },
+    {
+        name: "Caramel Pecan",
+        price: "$4.00",
+        image: "images/Caramel-Pecan-Cinnanmon-Rolls.jpg",
+        alt: "Caramel Pecan Cinnanmon Rolls picture",
+    
     }
 ]
 
