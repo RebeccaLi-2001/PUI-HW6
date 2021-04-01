@@ -48,7 +48,7 @@
 				
 				<form>  
 					<b> Choose the Size </b>  
-					<select id = "myList1" onchange = "Size()" >  
+					<select onchange >  
 					<option> 1 roll</option>  
 					<option> 3 rolls </option>  
 					<option> 6 rolls </option>  
@@ -59,7 +59,7 @@
 
 				<form>  
 					<b> Choose the Glazing </b>  
-					<select id = "myList2" onchange = "Glazing()" >  
+					<select onchange = "Glazing()" >  
 					<option> None</option>  
 					<option> Sugar-milk </option>  
 					<option> Vanilla-milk </option>  
@@ -72,8 +72,8 @@
 		</div>
 		
 		<div class="product_block">
-			<a href="blackberry.html">
-			<img src="images/Blackberry-Cinnamon-Rolls.jpg" alt="Blackberry Cinnamon Rolls picture" class="product_listing_pic">
+			<a href="original.html">
+			<img src="images/Blackberry-Cinnamon-Rolls.jpg" alt="Blackberry Cinnamon Rolls picture" class="product_listing_pic" >
 			</a>
 
 				<p>Blackberry</p>
@@ -108,7 +108,7 @@
 
 		<div class="product_block">
 
-			<img src="images/Walnut-Cinnamon-Rolls.jpg" alt="Walnut Cinnamon Rolls picture" class="product_listing_pic">
+			<img src="images/Walnut-Cinnamon-Rolls.jpg" alt="Walnut Cinnamon Rolls picture" id = "walnut" class="product_listing_pic" onclick="lookForTemplate()">
 			
 				<p>Walnut</p>
 				<p>$3.50</p>
